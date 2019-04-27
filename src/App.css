@@ -1,5 +1,22 @@
+body, html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  background-image: url(./plant.jpg);
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
 .App {
   text-align: center;
+}
+
+.title {
+  color: white;
 }
 
 .App-logo {
