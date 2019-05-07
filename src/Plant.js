@@ -1,11 +1,12 @@
 import React from 'react';
+import './Plant.css'
 
 const Plant = props => {
   return (
     <div>
-      <h1> {props.name} </h1>
+      <img className="plantImg" alt={props.name} src={props.img} />
+      <h3> {props.name} </h3>
       <h3> {props.desc} </h3>
-      <img alt={props.name} src={props.img} />
     </div>
   )
 }
