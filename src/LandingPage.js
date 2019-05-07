@@ -5,9 +5,7 @@ import './LandingPage.css'
 const LandingPage = (props) => {
   return (
     <div className="landingPage">
-      <button>
-        <Link to="/home" className="nav-link"> Enter </Link>
-      </button>
+      <h1>LandingPage page</h1>
     </div>
   )
 }

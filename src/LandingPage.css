@@ -17,3 +17,10 @@ body, html {
 } */
 
 
+.nav-link {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 1em;
+  border-radius: 5px;
+}
+
