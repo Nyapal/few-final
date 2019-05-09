@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
 import Plant from './Plant'
-import './Home.css'
 import directory from './directory'
+import './Plant.css'
 
 class Home extends Component {
   render() {
     const plants = directory.map(plant => (
-      <Plant 
+      <Plant key={plant.id}
+        id={plant.id}
         img={plant.img}
         name={plant.name}
-      // desc={plant.desc}
       />
     ))
     return (
-      <div>
-        {plants}
-      </div>
+        <div className="parentPlant">
+          {plants}
+        </div>
     )
   }
 }

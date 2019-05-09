@@ -2,4 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #A9A9A9
 }
